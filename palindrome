@@ -1,0 +1,7 @@
+n = int(input('Enter the number : '))
+no = n
+rev = 0
+temp = 0
+while(n>0):
+    temp = int(n%10)
+    rev = (rev*10) + temp
